@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 100%;
+}
+.dialogs {
+    width: 5rem;
+    border-right: 1px solid black;
+    border-radius: 0;
+    margin-bottom:  1rem;
+}
+.item {
+    text-decoration: none;
+}
+.active {
+    color: red;
+}
+.dialog {
+    color: aqua;
+}

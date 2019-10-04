@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+    "header header header"
+    "nav content content"
+    "footer footer footer";
+}
+.content {
+    grid-area: content;
+    background-color: gray;
+}
+div, header, nav, footer {
+    padding: 10px;
+    border-radius: 5px;
+}
+img {
+    width: 100%;
+}
